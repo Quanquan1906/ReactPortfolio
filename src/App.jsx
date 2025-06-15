@@ -1,10 +1,11 @@
 import styles from './App.module.css';
-function App() {
- 
+import { Navbar } from './components/Navbar/Navbar.jsx';
 
+function App() {
+// This is the main App component that renders the Navbar component
   return (
     <div className={styles.App}>
-      Hello, this is my portfolio website built with React.
+      <Navbar />
     </div>
     
   )

@@ -1,0 +1,32 @@
+@import "../../vars.css";
+.navbar {
+    position: relative;            
+    display: flex;                  
+    align-items: center;           
+    justify-content: space-between;
+    padding-top: 61px;              
+    z-index: 2;                     
+    margin: 0 10%;                  
+}
+.title {
+    font-size: 30px;         /* Cỡ chữ lớn */
+    font-weight: 600;        /* Độ đậm của chữ (600 = semi-bold) */
+    text-decoration: none;   /* Bỏ gạch chân (thường áp dụng với thẻ <a>) */
+    color: var(--color-text);/* Màu chữ lấy từ biến CSS */
+}
+
+.menu{
+    display: flex; /* Sắp xếp các item con theo chiều ngang */
+}
+
+.menuitems {
+    display: flex;       /* Hiển thị các mục menu trên cùng một hàng */
+    gap: 47px;           /* Khoảng cách giữa các mục */
+    list-style: none;    /* Bỏ dấu chấm mặc định của danh sách */
+}
+
+.menuitems a {
+    font-size: 25px;              /* Cỡ chữ cho link */
+    color: var(--color-text);     /* Màu chữ từ biến */
+    text-decoration: none;        /* Bỏ gạch chân */
+}
