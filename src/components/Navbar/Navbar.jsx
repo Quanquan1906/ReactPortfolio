@@ -8,9 +8,9 @@ export const Navbar = () => {
       className="bg-gradient-to-r from-[#0A162E] to-[#1B3A6D]
                     text-white w-full shadow-md 0"
     >
-      <div className="container mx-auto px-8 py-3 flex items-center justify-between ">
+      <div className="max-w-7xl mx-auto px-8 py-3 flex items-center justify-between">
         {/* Logo */}
-        <a href="/" className="hover:scale-105 text-3xl font-bold ml-4">
+        <a href="/" className=" hover:scale-105 text-3xl font-bold ml-4">
           Portfolio
         </a>
         <header className="flex justify-between items-center text-white py-6">
