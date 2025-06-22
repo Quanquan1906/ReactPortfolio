@@ -24,7 +24,7 @@ const TypewriterText = ({ text = "", speed = 40 }) => {
 export const Hero = () => {
   return (
     <section className="bg-gradient-to-r from-[#0A162E] to-[#1B3A6D] text-white py-20 px-10">
-      <div className="max-w-6xl mx-auto flex items-center justify-between">
+      <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
         {/* Left content */}
         <div className="max-w-xl space-y-6">
           <motion.h1
