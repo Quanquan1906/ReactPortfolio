@@ -15,7 +15,7 @@ const TypewriterText = ({ text = "", speed = 40 }) => {
     return () => clearInterval(interval);
   }, [text, speed]);
   return (
-    <p className="text-lg leading-relaxed mb-6 whitespace-pre-line">
+    <p className="text-xl leading-relaxed mb-6 whitespace-pre-line">
       {displayedText}
     </p>
   );
