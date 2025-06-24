@@ -31,7 +31,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-6xl font-bold mb-6"
+            className="text-5xl font-bold mb-6 mt-6 tracking-wide"
           >
             Hi, I'm QUÂN
           </motion.h1>

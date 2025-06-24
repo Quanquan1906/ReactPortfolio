@@ -4,12 +4,12 @@ import { FaLaptopCode, FaProjectDiagram, FaPalette,  } from "react-icons/fa";
 import { DiDatabase } from "react-icons/di";
 export const About = () => {
   return (
-    <section className="bg-gradient-to-r from-[#0A162E] to-[#1B3A6D] text-white py-20 px-10">
+    <section className="bg-gradient-to-r from-[#0A162E] to-[#1B3A6D] text-white py-22 px-10" id="about">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold uppercase tracking-wide mb-4">
           About
         </h2>
-        <div className="bg-[#1D253B] rounded-xl flex flex-row p-5 gap-8  ">
+        <div className="bg-[#1D253B] rounded-xl flex flex-row p-5 gap-8">
           <div className="hidden md:block flex-shrink-0 p-5">
             <img
               src={getImageUrl("about/aboutMe.png")}
@@ -17,7 +17,7 @@ export const About = () => {
               className="w-90 ml-3 h-auto rounded-xl cursor-pointer"
             />
           </div>
-          <div className=" space-y-6 mt-4 ">
+          <div className="space-y-6 mt-4 ">
 
             {/* Card 1 */}
             <div className="p-4 flex items-start gap-4 shadow-lg">

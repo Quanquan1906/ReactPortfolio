@@ -7,12 +7,13 @@ export const Navbar = () => {
     { id: 2, name: "Skills", link: "#skills" },
     { id: 3, name: "Projects", link: "#projects" },
     { id: 4, name: "Contact", link: "#contact" },
+    { id: 5, name: "Home", link: "#home"},
   ];
   return (
-    <div className="relative z-50">
+    <div className="relative z-50 ">
       {/* Logo + Menu Icon */}
       <div
-        className="bg-gradient-to-r from-[#0A162E] to-[#1B3A6D]
+        className="fixed w-full z-50 bg-gradient-to-r from-[#0A162E] to-[#1B3A6D]
                     text-white w-full shadow-md "
       >
         <div className="max-w-7xl mx-auto px-8 py-3 flex items-center justify-between relative z-50">
@@ -20,7 +21,7 @@ export const Navbar = () => {
             Portfolio
           </a>
           {/*desktop*/}
-          <nav className="flex justify-between ml-auto gap-8 hidden xl:flex items-center text-white py-7 font-semibold">
+          <nav className="flex justify-between ml-auto gap-8 hidden xl:flex items-center text-white py-6">
             {Navbarlinks.map((link) => (
               <a
                 key={link.id}
@@ -45,7 +46,7 @@ export const Navbar = () => {
       )}
 
       <div
-        className={`absolute xl:hidden top-24 left-0 w-full z-50
+        className={`absolute xl:hidden top-18 left-0 w-full z-50
                         bg-gradient-to-r from-[#0A162E] to-[#1B3A6D]
                         flex flex-col items-center gap-6 text-white font-semibold
                         text-lg transition-opacity duration-300 pb-7
