@@ -10,16 +10,37 @@ export const Contact = () => {
         </div>
         <div className="flex flex-col gap-4 md:ml-auto">
           <div className="flex items-center gap-3 ">
-            <Mail className="w-5 h-5" />
-            <span>doquan19062004@gmail.com</span>
+            <a
+              href="mailto:doquan19062004@gmail.com"
+              className="flex items-center gap-3 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Mail className="w-5 h-5" />
+              <span>doquan19062004@gmail.com</span>
+            </a>
           </div>
           <div className="flex items-center gap-3">
-            <Github className="w-5 h-5" />
-            <span>Quanquan1906</span>
+            <a
+              href="https://github.com/Quanquan1906"
+              className="flex items-center gap-3 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Github className="w-5 h-5" />
+              <span>Quanquan1906</span>
+            </a>
           </div>
           <div className="flex items-center gap-3">
-            <Facebook className="w-5 h-5" />
-            <span>Đỗ Quân</span>
+            <a
+              href="https://www.facebook.com/doquann.2/"
+              className="flex items-center gap-3 hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Facebook className="w-5 h-5" />
+              <span>Đỗ Quân</span>
+            </a>
           </div>
         </div>
       </div>
